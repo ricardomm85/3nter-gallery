@@ -1,7 +1,15 @@
+@font-face {
+    font-family: 'supplyregular';
+    src: url('fonts/supply-regular-webfont.woff2') format('woff2'),
+    url('fonts/supply-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     background-color: #000;
     color: #FFF;
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'supplyregular', monospace;
     margin: auto;
     max-width: 640px;
     padding-top: 50px;
