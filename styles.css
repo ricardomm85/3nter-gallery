@@ -39,11 +39,10 @@ a:active {
 }
 #background-video {
     width: 50%;
-    height: 50%;
     position: fixed;
     left: 25%;
     right: 0;
-    top: 30%;
+    top: 25%;
     bottom: 0;
     z-index: -1;
 }
