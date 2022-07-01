@@ -82,7 +82,7 @@ body {
 }
 
 #contact {
-    padding-top: 30px;
+    padding-top: 50px;
     text-align: center;
 }
 
@@ -93,4 +93,9 @@ body {
 #contact p a{
     text-transform: lowercase;
     color: #0000FF;
+}
+
+#sponsors {
+    padding-top: 50px;
+    text-align: center;
 }
