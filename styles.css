@@ -48,12 +48,6 @@ a:active {
     z-index: -1;
 }
 
-#video-button{
-    position: fixed;
-    right: 25px;
-    top: 25px;
-}
-
 #logo {
     justify-content: center;
     max-width: 100%;
