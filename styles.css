@@ -17,8 +17,24 @@ body {
     padding-left: 30px;
     padding-right: 30px;
 }
-a {
-  color: #FFF;
+/* unvisited link */
+a:link {
+  color:#ffffff;
+}
+
+/* visited link */
+a:visited {
+  color:#ffffff;
+}
+
+/* mouse over link */
+a:hover {
+  color:#ffffff;
+}
+
+/* selected link */
+a:active {
+  color:#ffffff;
 }
 #background-video {
     width: 50%;
