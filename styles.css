@@ -1,0 +1,71 @@
+body {
+    background-color: #000;
+    color: #FFF;
+    font-family: 'Source Code Pro', monospace;
+    margin: auto;
+    max-width: 640px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#logo {
+    justify-content: center;
+    max-width: 100%;
+}
+
+#summary {
+    line-height: 18px;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+}
+
+@media (min-width: 600px) {
+    .row {
+        display: flex;
+    }
+    .column {
+        flex: 50%;
+    }
+    .column:first-child {
+        padding-right: 20px;
+    }
+    .column:last-child {
+        padding-left: 20px;
+    }
+}
+
+.column p {
+    text-align: justify;
+}
+
+#acknowledgment {
+    padding-top: 30px;
+}
+
+#acknowledgment span {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#acknowledgment p {
+    text-align: justify;
+}
+
+#contact {
+    padding-top: 30px;
+    text-align: center;
+}
+
+#contact p {
+    text-transform: uppercase;
+}
+
+#contact p a{
+    text-transform: lowercase;
+    color: #0000FF;
+}
