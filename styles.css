@@ -19,22 +19,22 @@ body {
 }
 
 a:link {
-  color:#ffffff;
+  color: #FFF;
   text-decoration:none;
 }
 
 a:visited {
-    color:#ffffff;
+    color: #FFF;
     text-decoration:none;
 }
 
 a:hover {
-    color:#ffffff;
+    color: #FFF;
     text-decoration:underline;
 }
 
 a:active {
-    color:#ffffff;
+    color: #FFF;
     text-decoration:none;
 }
 #background-video {
