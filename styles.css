@@ -12,10 +12,7 @@ body {
     font-family: 'supplyregular', monospace;
     margin: auto;
     max-width: 640px;
-    padding-top: 50px;
-    padding-bottom: 100px;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding: 50px 30px 100px;
 }
 
 a:link {
@@ -39,10 +36,10 @@ a:active {
 }
 #background-video {
     width: 50%;
-    position: fixed;
+    position: absolute;
     left: 25%;
     right: 0;
-    top: 25%;
+    top: 20%;
     bottom: 0;
     z-index: -1;
 }
