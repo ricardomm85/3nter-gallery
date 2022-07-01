@@ -19,13 +19,12 @@ body {
 }
 
 #background-video {
-    width: 60vw;
-    height: 60vh;
-    object-fit: cover;
+    width: 50%;
+    height: 50%;
     position: fixed;
-    left: 20%;
+    left: 25%;
     right: 0;
-    top: 20%;
+    top: 30%;
     bottom: 0;
     z-index: -1;
 }
